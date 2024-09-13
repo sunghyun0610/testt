@@ -14,7 +14,7 @@ public class TestApplication {
 
         System.out.println("user1이 작업한 코드");
         System.out.println("user2가 작업하였다.");
-
+        System.out.println("t2의 작업");
     }
 
 }
