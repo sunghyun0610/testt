@@ -17,8 +17,8 @@ public class TestApplication {
         System.out.println("t2의 작업");
 
 
-        System.out.println("first의 작업");
 
+        System.out.println("first의 작업");
         System.out.println("second의 작업");
 
     }
