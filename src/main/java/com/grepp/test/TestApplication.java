@@ -23,6 +23,23 @@ public class TestApplication {
 
         System.out.println("one은 main수정");
 
+        User user1=new User.Builder("Moon",26).build();
+        System.out.println(user1);
+
+        User user2= new User.Builder("Alice",21)
+                .email("test@test.com")
+                .phone("010")
+                .build();
+        System.out.println(user2);
+
+        Student student1=new StudentBuilder()
+                .id(1)
+                .grade("test1")
+                .name("test")
+
+                .build();
+
+        System.out.println(student1);
     }
 
 }
